@@ -1,0 +1,27 @@
+# Local toolchain and builds
+/.build/
+/.toolchain/
+/bin/
+/ticket-watch
+/ticket-watch.exe
+*.test
+
+# Local configuration, credentials and runtime state
+config.json
+serverchan-key
+.env
+.env.*
+.ssh/
+id_*
+*.pem
+*.key
+*.lwp
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.log
+.config.lock
+worker.lock
